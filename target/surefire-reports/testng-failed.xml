@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="100" name="Test" parallel="classes">
+    <classes>
+      <class name="com.swaglabs.Tests.LoginInvalidUser"/>
+      <class name="com.swaglabs.Tests.LaunchSwagLabs"/>
+      <class name="com.swaglabs.Tests.LoginLockedOutUser"/>
+      <class name="com.swaglabs.Tests.AddToCartSingleItem"/>
+      <class name="com.swaglabs.Tests.LoginLogoutStandardUser"/>
+      <class name="com.swaglabs.Tests.AddToCartMultipleItems"/>
+      <class name="com.swaglabs.Tests.ValidateOrderTotals"/>
+      <class name="com.swaglabs.Tests.LoginValidUser"/>
+      <class name="com.swaglabs.Tests.CompleteOrder"/>
+      <class name="com.swaglabs.Tests.TestBase"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.swaglabs.Tests.AddToCartMultipleItems">
+        <methods>
+          <include name="AddToCartMultipleItemsTest" invocation-numbers="2 8 9 1 3 0 7 5 6 4"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.AddToCartMultipleItems -->
+      <class name="com.swaglabs.Tests.LaunchSwagLabs">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.LaunchSwagLabs -->
+      <class name="com.swaglabs.Tests.CompleteOrder">
+        <methods>
+          <include name="CompleteOrderTest" invocation-numbers="8 1 0 9 3 2 7 4 5 6"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.CompleteOrder -->
+      <class name="com.swaglabs.Tests.LoginLockedOutUser">
+        <methods>
+          <include name="LoginLockedOutUserTest" invocation-numbers="2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.LoginLockedOutUser -->
+      <class name="com.swaglabs.Tests.LoginValidUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginValidUserTest" invocation-numbers="3 2"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.LoginValidUser -->
+      <class name="com.swaglabs.Tests.LoginLogoutStandardUser">
+        <methods>
+          <include name="LoginLogoutTest" invocation-numbers="3 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.LoginLogoutStandardUser -->
+      <class name="com.swaglabs.Tests.ValidateOrderTotals">
+        <methods>
+          <include name="ValidateOrderTotalsTest" invocation-numbers="8 0 1 9 2 3 4 7 5 6"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.ValidateOrderTotals -->
+      <class name="com.swaglabs.Tests.AddToCartSingleItem">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AddToCartSingleItemTest" invocation-numbers="2 3"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.AddToCartSingleItem -->
+      <class name="com.swaglabs.Tests.LoginInvalidUser">
+        <methods>
+          <include name="LoginInvalidUserTest" invocation-numbers="3 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.swaglabs.Tests.LoginInvalidUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

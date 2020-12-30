@@ -1,0 +1,16 @@
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/LoginInvalidUser.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/TestBase.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/LaunchSwagLabs.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/LoginLockedOutUser.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Pages/InventoryPage.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/LoginValidUser.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Pages/CheckoutOverviewPage.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/ValidateOrderTotals.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Pages/CheckoutPage.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Pages/OrderConfirmationPage.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/AddToCartMultipleItems.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/AddToCartSingleItem.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/LoginLogoutStandardUser.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Pages/LoginPage.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Tests/CompleteOrder.java
+/Users/frankleyenaar/Documents/Sauce/saucedemo/src/test/java/com/swaglabs/Pages/CartPage.java

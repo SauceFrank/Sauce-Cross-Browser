@@ -1,0 +1,16 @@
+com/swaglabs/Pages/CheckoutOverviewPage.class
+com/swaglabs/Tests/LoginLogoutStandardUser.class
+com/swaglabs/Tests/LoginValidUser.class
+com/swaglabs/Tests/LoginLockedOutUser.class
+com/swaglabs/Tests/AddToCartSingleItem.class
+com/swaglabs/Tests/CompleteOrder.class
+com/swaglabs/Pages/OrderConfirmationPage.class
+com/swaglabs/Tests/TestBase.class
+com/swaglabs/Pages/LoginPage.class
+com/swaglabs/Tests/AddToCartMultipleItems.class
+com/swaglabs/Tests/LoginInvalidUser.class
+com/swaglabs/Tests/ValidateOrderTotals.class
+com/swaglabs/Pages/CartPage.class
+com/swaglabs/Pages/InventoryPage.class
+com/swaglabs/Pages/CheckoutPage.class
+com/swaglabs/Tests/LaunchSwagLabs.class
